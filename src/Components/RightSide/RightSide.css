@@ -4,3 +4,22 @@
     background-color: #9c64a6;
     border-radius: 10px;
 }
+.btnContainer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btnShow {
+    width: 80%;
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: raleway;
+    font-weight: 500;
+}
+

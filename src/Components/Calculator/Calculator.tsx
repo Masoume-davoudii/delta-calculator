@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ICalculator } from "../CenterContainer/CenterContainer";
+
 import "./Calculator.css";
 
 interface CalcProps {
