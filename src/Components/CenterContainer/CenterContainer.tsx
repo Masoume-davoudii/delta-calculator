@@ -12,6 +12,5 @@ export type ICalculator = {
 interface CenterContainerProps {}
 
 export const CenterContainer: React.FC<CenterContainerProps> = (props) => {
-  const [numberState, setNumberState] = useState<ICalculator>({ Inputs: [] });
   return <div className="center-container">{props.children}</div>;
 };
