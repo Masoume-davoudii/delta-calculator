@@ -4,7 +4,6 @@ import { Calculator } from "../Calculator/Calculator";
 import { ShowHistory } from "../ShowHistory/ShowHistory";
 import { SpaPage } from "../SpaPage/SpaPage";
 import "./CenterContainer.css";
-import { useState } from "react";
 
 export type ICalculator = {
   Inputs: { a: Number; b: Number; c: Number; delta: Number }[];
